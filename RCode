@@ -1,0 +1,5 @@
+# Read CSV into R
+UKRetail <- read.csv("data/UKretail.csv")
+
+# Plot a frequency histogram of the
+plot(table(UKretail$Country))
